@@ -1,0 +1,33 @@
+.LoginPageCore {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: fit-content
+}
+
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.loginForm {
+    position: absolute;
+    top: -100px;
+    left: 25%;
+    display: grid;
+    grid-template-rows: 2fr 4fr 2fr 4fr 4fr;
+    background-color: #42484d;
+    padding:2%;
+    border-radius:7px;
+    text-align: left;
+    color: white;
+    width: 40%;
+    height: 250px;
+    gap: 0px;
+}
+
+input {
+    height: 50%;
+}

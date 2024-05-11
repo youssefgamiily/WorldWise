@@ -1,0 +1,70 @@
+#map {
+    height: 200px;
+}
+
+
+.leaflet-container {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sideBar {
+    width: 25%;
+    background-color: #2d3439;
+    padding-top: 10px;
+}
+
+.sidebarLogo {
+    width: 60%;
+}
+
+.MapPage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 0px;
+}
+
+.sideBarContent {
+    height: 100%;
+}
+
+.markerForm {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    z-index: 10;
+    height: 30%;
+    width: 95%;
+    border-radius: 8%;
+    margin: auto;
+}
+
+.markerForm label {
+    color: #2d3439;
+    
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.MarkerSubmitBtn {
+    width: 60%;
+    margin: auto;
+}
+
+.sideMarker {
+    color: white;
+    border: 1px solid white;
+}
